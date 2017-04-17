@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Jeju Hallasan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/JejuHallasan-Regular.woff) format('woff'),
+       url(./_files/JejuHallasan-Regular.ttf) format('truetype');
+}

@@ -1,0 +1,31 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'LiberationSerif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/LiberationSerif-Regular.woff) format('woff'),
+       url(./_files/LiberationSerif-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'LiberationSerif';
+  font-style: italic;
+  font-weight: 400;
+  src: url(./_files/LiberationSerif-Italic.woff) format('woff'),
+       url(./_files/LiberationSerif-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'LiberationSerif';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/LiberationSerif-Bold.woff) format('woff'),
+       url(./_files/LiberationSerif-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'LiberationSerif';
+  font-style: italic;
+  font-weight: 700;
+  src: url(./_files/LiberationSerif-BoldItalic.woff) format('woff'),
+       url(./_files/LiberationSerif-BoldItalic.ttf) format('truetype');
+}

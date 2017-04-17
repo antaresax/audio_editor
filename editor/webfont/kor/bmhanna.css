@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'BM Hanna';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/BMHANNA.woff) format('woff'),
+       url(./_files/BMHANNA.ttf) format('truetype');
+}

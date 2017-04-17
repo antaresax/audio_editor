@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/NanumSquareR.woff) format('woff'),
+       url(./_files/NanumSquareR.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/NanumSquareB.woff) format('woff'),
+       url(./_files/NanumSquareB.ttf) format('truetype');
+}

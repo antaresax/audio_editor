@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'ScriptinaPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/ScriptinaPro.woff) format('woff'),
+       url(./_files/ScriptinaPro.otf) format('opentype');
+}

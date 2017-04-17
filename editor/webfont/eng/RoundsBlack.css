@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'RoundsBlack';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/RoundsBlack.woff) format('woff'),
+       url(./_files/RoundsBlack.otf) format('opentype');
+}

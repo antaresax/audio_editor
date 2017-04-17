@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title> &#985; DrEditor -Web Audio Editor  </title>
+
+<script>document.write("<link rel='stylesheet' type='text/css' href='./css/reset.css?check=" + Date.now() + "'>");</script>
+<script>document.write("<link rel='stylesheet' type='text/css' href='./css/util.css?check=" + Date.now() + "'>");</script>
+<script>document.write("<link rel='stylesheet' type='text/css' href='./_dreditor/style.css?check=" + Date.now() + "'>");</script>
+<script>document.write("<link rel='stylesheet' type='text/css' href='./_dreditor/w3.css?check=" + Date.now() + "'>");</script>
+
+<script src="./js/Vendor/drsax.1.7.0.1.2.js"></script>
+<script src="./js/Vendor/jquery-1.11.3.min.js"></script>
+<script src="./js/Vendor/jquery-ui.min.js"></script>
+<script src="./cont/js/platform.js"></script>
+
+<link rel="import" href="cont/webcomponents/polymer.html">
+<link rel="import" href="cont/webcomponents/controls.html">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+    <body class="mainwidth" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top mainwidth">
+  <ul class="w3-navbar w3-white w3-card-2" id="myNavbar">
+    <li>
+      <a href="#home" class="w3-wide"><strong>Dr.Editor</strong> for Web Audio works in RealTime </a>
+    </li>
+    <!-- Right-sided navbar links -->
+    <li class="w3-right w3-hide-small">
+      <a href="#about">ABOUT</a>
+      <a href="#team"><i class="fa fa-user"></i> Dr.Hong</a>
+      <a href="#work"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing"><i class="fa fa-usd"></i> Dr.Sax.js</a>
+      <a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a>
+    </li>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <li>
+      <a href="javascript:void(0)" class="w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars w3-padding-right w3-padding-left"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="dial_set w3-container w3-padding-8">
+
+
+  <div class="canvas_frequency" id="" ><canvas id="canv" style="width:320px;height:200px;" ></canvas> </div>
+   <div class="canvas_amp" id="" >Eidte box</div>
+
+
+ <div class="set_box">
+
+    <webaudio-switch class= " control_set" id="switch3" src="./cont/img/switch_toggle.png"  value="0" max="1" width="70" height="70"></webaudio-switch>
+    <span class="text_center" id="value_data">Switch_1 </span>
+	</div>
+ <div class="set_box">
+    <webaudio-switch class= " control_set" id="switch3"  src="./cont/img/switch_toggle.png"  value="0" max="1" width="70" height="70"></webaudio-switch>
+	    <span class="text_center" id="value_data">Switch_2</span>
+	</div>
+
+
+
+
+
+ <div class="set_box">
+  <webaudio-knob class= " control_set"id="amp"    src="./cont/img/vin.png" value="0.0" max="1.0" step="0.1" diameter="80" sprites="100"  ></webaudio-knob>
+      <span class="text_center" id="value_data">Dial_1 </span>
+	</div>
+
+ <div class="set_box">
+  <webaudio-knob class= " control_set" id="amp"    src="./cont/img/vin.png" value="0.0" max="1.0" step="0.1" diameter="80" sprites="100"  ></webaudio-knob>
+        <span class="text_center" id="value_data">Dial_2 </span>
+	</div>
+
+  <div class="set_box">
+  <webaudio-knob class= " control_set"id="amp"    src="./cont/img/vin.png" value="0.0" max="1.0" step="0.1" diameter="80" sprites="100"  ></webaudio-knob>
+       <span class="text_center" id="value_data">Dial_3  </span>
+	</div>
+
+  <div class="set_box">
+  <webaudio-knob class= " control_set" id="amp" src="./cont/img/vin.png" value="0.0" max="1.0" step="0.1" diameter="80" sprites="100"  ></webaudio-knob>
+
+      <span class="text_center" id="value_data">Dial_4 </span>
+	</div>
+
+  <div class="set_box slide_mrgin_left">
+   <webaudio-slider class= " slider_set" id="monet22"   src="./cont/img/s1.png"   knobsrc="./cont/img/snn.png"  value="50" min="0" max="200" step="1" width="50" height="140"  basewidth="40" baseheight="140" knobwidth="40" knobheight="40" ditchLength="100" tooltip="Frequency"></webaudio-slider>
+    <span class="text_center" id="value_data">Slider1</span>
+	</div>
+  <div class="set_box slide_mrgin_left">
+    <webaudio-slider class= " slider_set" id="monet22"  src="./cont/img/s1.png"   knobsrc="./cont/img/snn.png"  value="50" min="0" max="200" step="1" width="50" height="140"  basewidth="40" baseheight="140" knobwidth="40" knobheight="40" ditchLength="100" tooltip="Frequency"></webaudio-slider>
+       <span class="text_center" id="value_data">Slider2</span>
+	</div>
+
+ </div>
+
+
+
+
+
+ <div class ="control_box layer1">
+
+
+			   <div class="w3-btn-group">
+		   <p><button class="w3-btn w3-round-xlarge play_button" id="" >Eidte box</button></p>
+			    <p><button class="w3-btn w3-round-xlarge   play_button"  >Console box </button></p>
+			      <p><button class="w3-btn w3-round-xlarge   play_button" id="" >Preset box</button></p>
+
+
+
+            </div>
+
+
+ </div>
+ <script>
+ var DSX = new DSX;
+ </script>
+<textarea class="textbox_set" id="txt" rows="20" cols="60" NAME="myTextArea" ROWS="5" COLS="80" WRAP="soft" ONSELECT="saveCurrentPos(this)"ONCLICK="saveCurrentPos(this)"ONKEYUP="saveCurrentPos(this)" >
+<script>
+
+
+
+var osc = new DSX.Osc({type:"sawtooth",freq: 500});
+
+  var gain = new DSX.Amp({ gain: 0.9});
+  var frequrncy_canvas = new DSX.freqDomain('canv', 'red');
+        frequrncy_canvas.getAnalyser(gain);
+
+  osc.connect(gain);
+
+  gain.connect(DAC);
+
+  osc.start();
+
+
+
+</script>
+</textarea>
+
+
+    <div id="real" >
+
+
+
+		   </div>
+
+
+    <div id="control_right_box" >
+
+
+			   <p><button class="w3-btn w3-round-large  w3-orange" >Synthesizer </button></p>
+			    <p><button class="w3-btn w3-round-xlarge "  >Frequency M</button></p>
+				 <p><button class="w3-btn w3-round-xlarge ">Aamplitude M</button></p>
+				  <p><button class="w3-btn w3-round-xlarge ">Subtractive.</button></p>
+				   <p><button class="w3-btn w3-round-xlarge ">Oscillator </button></p>
+				    <p><button class="w3-btn w3-round-xlarge ">Attack/release</button></p>
+
+			   <p><button class="w3-btn w3-round-large  w3-orange" >Sound Effects </button></p>
+			    <p><button class="w3-btn w3-round-xlarge "  >Delay</button></p>
+				 <p><button class="w3-btn w3-round-xlarge ">Reverb</button></p>
+				  <p><button class="w3-btn w3-round-xlarge ">Stereo pan</button></p>
+				   <p><button class="w3-btn w3-round-xlarge ">Eqerizer</button></p>
+				    <p><button class="w3-btn w3-round-xlarge ">Compressor</button></p>
+
+	</div>
+	  <div id="control_right_box" >
+
+
+			   <p><button class="w3-btn w3-round-large w3-orange" >Sound Input </button></p>
+			    <p><button class="w3-btn w3-round-xlarge " >Mic Iinput</button></p>
+				 <p><button class="w3-btn w3-round-xlarge ">Tuner</button></p>
+				<p><button class="w3-btn w3-round-large  w3-orange" >File Upload </button></p>
+				  <p><button class="w3-btn w3-round-xlarge "> File upload</button></p>
+				   <p><button class="w3-btn w3-round-xlarge ">Audio file plyer</button></p>
+
+
+			   <p><button class="w3-btn w3-round-large  w3-orange" >Sound Sample </button></p>
+			    <p><button class="w3-btn w3-round-xlarge "  >New Text</button></p>
+				 <p><button class="w3-btn w3-round-xlarge ">Round XLarge</button></p>
+				  <p><button class="w3-btn w3-round-xlarge ">Round XLarge</button></p>
+				   <p><button class="w3-btn w3-round-xlarge ">Round XLarge</button></p>
+				    <p><button class="w3-btn w3-round-xlarge ">Round XLarge</button></p>
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+ <div class ="control_box">
+
+
+			   <div class="w3-btn-group">
+		   <p><button class="w3-btn w3-round-xlarge w3-white play_button" id="hide11" >Play Editor button</button></p>
+			    <p><button class="w3-btn w3-round-xlarge w3-gray  play_button" onclick="osc.stop();" id="stop_button" >Stop Editor button </button></p>
+			      <p><button class="w3-btn w3-round-xlarge w3-gray  play_button" id="text_one" >New Text Button</button></p>
+
+
+
+            </div>
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>document.write('<script src="./js/Front/Init.js?check=' + Date.now() + '"><\/script>');</script> -->
+<!-- <script>document.write('<script src="./js/Front/Common.js?check=' + Date.now() + '"><\/script>');</script>			<!-- PM.Front.App.Common -->
+<!-- <script>document.write('<script src="./_dreditor/Ajax.js?check=' + Date.now() + '"><\/script>');</script>			<!-- PM.Front.App.Ajax -->
+<!-- <script>document.write('<script src="./_dreditor/Canvas.js?check=' + Date.now() + '"><\/script>');</script>			<!-- PM.Front.App.Canvas -->
+<script>document.write('<script src="./_dreditor/DrEditor.js?check=' + Date.now() + '"><\/script>');</script>
+
+</body>
+</html>

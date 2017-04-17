@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Nanum Pen Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/NanumSonPen.woff) format('woff'),
+       url(./_files/NanumSonPen.ttf) format('truetype');
+}

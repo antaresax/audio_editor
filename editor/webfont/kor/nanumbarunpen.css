@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Nanum Barun Pen';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/NanumBarunpenR.woff) format('woff'),
+       url(./_files/NanumBarunpenR.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Barun Pen';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/NanumBarunpenB.woff) format('woff'),
+       url(./_files/NanumBarunpenB.ttf) format('truetype');
+}

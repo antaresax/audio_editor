@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'ChubGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/ChubGothic.woff) format('woff'),
+       url(./_files/ChubGothic.ttf) format('truetype');
+}

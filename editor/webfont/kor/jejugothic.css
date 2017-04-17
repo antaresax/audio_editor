@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Jeju Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/JejuGothic-Regular.woff) format('woff'),
+       url(./_files/JejuGothic-Regular.ttf) format('truetype');
+}

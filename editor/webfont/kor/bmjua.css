@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'BM Jua';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/BMJUA.woff) format('woff'),
+       url(./_files/BMJUA.ttf) format('truetype');
+}

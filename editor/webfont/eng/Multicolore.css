@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'Multicolore';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/Multicolore.woff) format('woff'),
+       url(./_files/Multicolore.otf) format('opentype');
+}

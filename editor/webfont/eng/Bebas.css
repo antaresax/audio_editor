@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/Bebas.woff) format('woff'),
+       url(./_files/Bebas.ttf) format('truetype');
+}

@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'Exmouth';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/Exmouth.woff) format('woff'),
+       url(./_files/Exmouth.ttf) format('truetype');
+}

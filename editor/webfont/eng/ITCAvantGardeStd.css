@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'ITCAvantGardeStd-XLtCn';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/ITCAvantGardeStd-XLtCn.woff) format('woff'),
+       url(./_files/ITCAvantGardeStd-XLtCn.ttf) format('truetype');
+}

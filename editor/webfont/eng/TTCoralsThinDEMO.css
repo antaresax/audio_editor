@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'TTCoralsThinDEMO';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TTCoralsThinDEMO.woff) format('woff'),
+       url(./_files/TTCoralsThinDEMO.otf) format('opentype');
+}
