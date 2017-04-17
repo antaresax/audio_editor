@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'TDc Pororomc';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TDc_PororoMc.woff) format('woff'),
+       url(./_files/TDc_PororoMc.ttf) format('truetype');
+}

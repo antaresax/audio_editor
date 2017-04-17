@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'OstrichSans';
+  font-style: normal;
+  font-weight: 800;
+  src: url(./_files/OstrichSans-Heavy.woff) format('woff'),
+       url(./_files/OstrichSans-Heavy.otf) format('opentype');
+}

@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'TDc Donkiprince';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TDc_DonkiPrinceM.woff) format('woff'),
+       url(./_files/TDc_DonkiPrinceM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'TDc Donkiprince';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/TDc_DonkiPrinceB.woff) format('woff'),
+       url(./_files/TDc_DonkiPrinceB.ttf) format('truetype');
+}

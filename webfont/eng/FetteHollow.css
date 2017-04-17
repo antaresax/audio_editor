@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'FetteHollow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/FetteBauerscheAntiquaUNZProHollow.woff) format('woff'),
+       url(./_files/FetteBauerscheAntiquaUNZProHollow.ttf) format('truetype');
+}

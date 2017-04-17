@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/NanumMyeongjo.woff) format('woff'),
+       url(./_files/NanumMyeongjo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/NanumMyeongjoBold.woff) format('woff'),
+       url(./_files/NanumMyeongjoBold.ttf) format('truetype');
+}

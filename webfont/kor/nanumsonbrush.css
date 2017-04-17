@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Nanum Brush Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/NanumSonBrush.woff) format('woff'),
+       url(./_files/NanumSonBrush.ttf) format('truetype');
+}

@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'Fette';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/FetteBauerscheAntiquaUNZPro.woff) format('woff'),
+       url(./_files/FetteBauerscheAntiquaUNZPro.ttf) format('truetype');
+}

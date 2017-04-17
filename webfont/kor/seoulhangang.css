@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Seoul Hangang';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/SeoulHangangM.woff) format('woff'),
+       url(./_files/SeoulHangangM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Seoul Hangang';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/SeoulHangangB.woff) format('woff'),
+       url(./_files/SeoulHangangB.ttf) format('truetype');
+}

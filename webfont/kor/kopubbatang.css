@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'KoPub Batang';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/KoPubBatang-Regular.woff) format('woff'),
+       url(./_files/KoPubBatang-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'KoPub Batang';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/KoPubBatang-Bold.woff) format('woff'),
+       url(./_files/KoPubBatang-Bold.ttf) format('truetype');
+}

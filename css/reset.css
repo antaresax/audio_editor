@@ -1,0 +1,69 @@
+@charset "utf-8";
+@font-face{
+	font-family: 'NanumBarunGothic';
+	font-style:normal;
+	font-weight:400;
+	src:url('./fonts/NanumBarunGothicWeb.eot');
+	src:url('./fonts/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/NanumBarunGothicWeb.woff') format('woff'),
+		url('./fonts/NanumBarunGothicWeb.ttf') format('truetype');
+}
+@font-face{
+	font-family:'NanumBarunGothic';
+	font-style:normal;
+	font-weight:700;
+	src:url('./fonts/NanumBarunGothicWebBold.eot');
+	src:url('./fonts/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/NanumBarunGothicWebBold.woff') format('woff'),
+		url('./fonts/NanumBarunGothicWebBold.ttf') format('truetype');
+}
+@font-face{
+	font-family:'NanumBarunGothic';
+	font-style:normal;
+	font-weight:100;
+	src:url('./fonts/NanumBarunGothicWebLight.eot');
+	src:url('./fonts/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/NanumBarunGothicWebLight.woff') format('woff'),
+		url('./fonts/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+
+/* normalize */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video { margin:0; padding:0; border:0; font:inherit; color:inherit; vertical-align:baseline; background:transparent;}
+input, select, textarea, button { font:inherit; color:inherit;}
+body { line-height:1;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote { display:block;}
+ul, ol, li{ list-style:none;}
+blockquote, q { quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none;}
+ins { text-decoration:underline;}
+del { text-decoration:line-through;}
+mark { background:none;}
+abbr[title], dfn[title] { border-bottom:1px dotted #000; cursor:help;}
+table { border-spacing:0; border-collapse:collapse;}
+hr { display:none;}
+img { border:0 none;}
+input, button, select, a, img { vertical-align:middle;}
+button { position:relative; background:none; border:0 none; cursor:pointer; font-family:inherit; margin:0; padding:0;}
+button * { margin:0; padding:0;}
+button::-moz-focus-inner { padding:0; border:0;}
+a { text-decoration:none; margin:0; padding:0;}
+a:hover { text-decoration:none;}
+* {
+	box-sizing:border-box;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+*:active,
+*:focus { outline:none;}
+
+/* common */
+.blind { position:absolute; top:-99999px; left:-99999px; z-index:-1000;}
+.dpNone { display:none;}
+.ellipsis {overflow:hidden; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis;}
+
+/* skipToContent */
+#skipToContent a { position:absolute; top:0px; left:0px; z-index:9999; width:100%; height:1px;	margin-top:-1px; display:block;	background-color:white; font-size:14px; font-weight:bold; color:#111; line-height:1; text-align:center; overflow:hidden;}
+#skipToContent a:focus,
+#skipToContent a:active { margin-top:0px; height:auto; padding:10px 0px;}

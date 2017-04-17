@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'TDc Bearnrabbit';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TDc_Bearnrabbit.woff) format('woff'),
+       url(./_files/TDc_Bearnrabbit.ttf) format('truetype');
+}

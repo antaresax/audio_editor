@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'TDc Todayweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TDc_Todayweather.woff) format('woff'),
+       url(./_files/TDc_Todayweather.ttf) format('truetype');
+}

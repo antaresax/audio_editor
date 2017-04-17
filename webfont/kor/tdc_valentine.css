@@ -1,0 +1,10 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'TDc Valentine';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TDc_ValentineM.woff) format('woff'),
+       url(./_files/TDc_ValentineM.ttf) format('truetype');
+}

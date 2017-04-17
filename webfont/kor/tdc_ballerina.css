@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'TDc Ballerina';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/TDc_BallerinaM.woff) format('woff'),
+       url(./_files/TDc_BallerinaM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'TDc Ballerina';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/TDc_BallerinaB.woff) format('woff'),
+       url(./_files/TDc_BallerinaB.ttf) format('truetype');
+}

@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'FetteShadow';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/FetteBauerscheAntiquaShaddowUNZPro.woff) format('woff'),
+       url(./_files/FetteBauerscheAntiquaShaddowUNZPro.ttf) format('truetype');
+}

@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'JennaSue';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/JennaSue.woff) format('woff'),
+       url(./_files/JennaSue.ttf) format('truetype');
+}

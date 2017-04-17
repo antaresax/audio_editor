@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+@font-face {
+  font-family: 'MomsTypewriter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/MomsTypewriter.woff) format('woff'),
+       url(./_files/MomsTypewriter.ttf) format('truetype');
+}

@@ -1,0 +1,17 @@
+/*
+ *
+ */
+@font-face {
+  font-family: 'Seoul Namsan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./_files/SeoulNamsanM.woff) format('woff'),
+       url(./_files/SeoulNamsanM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Seoul Namsan';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./_files/SeoulNamsanB.woff) format('woff'),
+       url(./_files/SeoulNamsanB.ttf) format('truetype');
+}
